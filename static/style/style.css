@@ -1,0 +1,35 @@
+body {
+    height: 100%;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+p, a, span, label, input {
+    font-family: 'Slabo 27px', serif;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.hidden {
+    display: none;
+}
+form {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+fieldset {
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.flex-space-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
